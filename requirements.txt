@@ -1,0 +1,15 @@
+flask
+flask-jwt-extended
+flask-mongoengine
+flask-cors
+werkzeug
+requests
+yfinance
+pandas
+numpy
+scikit-learn
+tensorflow
+matplotlib
+ccxt
+ta
+python-dotenv

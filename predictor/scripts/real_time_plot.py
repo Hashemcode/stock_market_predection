@@ -3,7 +3,7 @@ import requests
 
 def fetch_and_plot_real_time(ticker):
     while True:
-        response = requests.post("http://127.0.0.1:5000/plot", json={"ticker": ticker})
+        response = requests.post("http://127.0.0.1:5002/plot", json={"ticker": ticker})
         if response.status_code == 200:
             print(f"{ticker} plot created successfully.")
         else:
